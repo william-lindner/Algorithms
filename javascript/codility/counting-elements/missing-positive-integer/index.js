@@ -24,9 +24,9 @@ function solution(A) {
 }
 
 console.log('solved - %s', solution([1, 3, 6, 4, 1, 2]));
-console.log('solved - %s', solution([-1, -3]));
-console.log('solved - %s', solution([2]));
-console.log(
-  'solved - %s',
-  solution([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 11, 12, 13, 100])
-);
+// console.log('solved - %s', solution([-1, -3]));
+// console.log('solved - %s', solution([2]));
+// console.log(
+//   'solved - %s',
+//   solution([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 11, 12, 13, 100])
+// );
