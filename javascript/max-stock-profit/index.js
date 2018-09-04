@@ -1,17 +1,17 @@
 console.clear();
 
-function maxStockProfit(prices) {
-  // takes in array of prices as parameter
+function maxStockProfit(A) {
+  // takes in array of A as parameter
   // returns the max possible profit of the day
-  var maxProfit = -1;
+  var maxProfit = 0;
   var buyPrice = 0;
   var sellPrice = 0;
 
   var changeBuyPrice = true;
 
-  for (var i = 0; i < prices.length; i++) {
-    buyPrice = changeBuyPrice ? prices[i] : buyPrice;
-    sellPrice = prices[i + 1];
+  for (var i = 0; i < A.length; i++) {
+    buyPrice = changeBuyPrice ? A[i] : buyPrice;
+    sellPrice = A[i + 1];
 
     if (sellPrice < buyPrice) {
       changeBuyPrice = true;
