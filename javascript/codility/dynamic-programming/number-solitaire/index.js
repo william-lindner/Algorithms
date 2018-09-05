@@ -12,9 +12,6 @@ function solution(A) {
 
   if (N <= 2) return R;
 
-  A.unshift();
-  A.pop();
-
   function _maxSum(S, M) {
     let maxSum = S;
     let atIndex = 0;
